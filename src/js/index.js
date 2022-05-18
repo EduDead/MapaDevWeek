@@ -5,7 +5,7 @@ personagens.forEach((personagem) => {
         
         const idSelecionado = personagem.attributes.id.value;
 
-        if (idSelecionado === 'weregarurumon.png') return;
+        if (idSelecionado === 'Weregarurumon.png') return;
 
         const personagemSelecionado = document.querySelector('.selecionado');
         personagemSelecionado.classList.remove('selecionado');
